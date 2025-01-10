@@ -59,7 +59,3 @@
         scroll-layers = <5>;
     };
 };
-
-&right_encoder {
-    status = "okay";
-};
