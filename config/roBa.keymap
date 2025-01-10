@@ -74,7 +74,7 @@
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V     &kp B     &kp COLON          &lt 6 SEMICOLON  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1  &mkp MB2  &lt 2 SPACE        &lt 3 BACKSPACE  &kp ENTER                             &mt LEFT_SHIFT DELETE
             >;
-            sensor-bindings = <&rot_msc>;  // bindings引数なしで使用
+            sensor-bindings = <&rot_msc>;
         };
 
         FUNCTION {
@@ -113,6 +113,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
+            sensor-bindings = <&rot_msc>;
         };
 
         SCROLL {
@@ -122,6 +123,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
+            sensor-bindings = <&rot_msc>;
         };
 
         layer_6 {
