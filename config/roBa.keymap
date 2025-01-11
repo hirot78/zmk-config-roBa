@@ -75,7 +75,7 @@
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V     &kp B     &kp COLON          &lt 6 SEMICOLON  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1  &mkp MB2  &lt 2 SPACE        &lt 3 BACKSPACE  &kp ENTER                             &mt LEFT_SHIFT DELETE
             >;
-            
+
             sensor-bindings = <&scroll_up_down>;
 
         };
@@ -87,9 +87,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
             >;
-
-            sensor-bindings = <&scroll_up_down>;
-
         };
 
         NUM {
@@ -113,6 +110,7 @@
             >;
 
             sensor-bindings = <&scroll_up_down>;
+            
         };
 
         MOUSE {
@@ -122,9 +120,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
-
         };
 
         SCROLL {
@@ -134,9 +129,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>;
-
         };
 
         layer_6 {
@@ -146,9 +138,6 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
-
-            sensor-bindings = <&scroll_up_down>;
-
         };
     };
 };
